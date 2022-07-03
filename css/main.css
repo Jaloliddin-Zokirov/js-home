@@ -44,6 +44,18 @@ img {
   color: rgb(179, 179, 179);
 }
 
+.select{
+  display: block;
+  width: 150px;
+  height: 35px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  font-size: 20px;
+  color: #333;
+  border-radius: 10px;
+  border: none;
+}
+
 .list{
   margin: 0;
   padding: 0;
@@ -59,18 +71,18 @@ img {
   max-width: 250px;
   margin-bottom: 30px;
   padding: 20px;
-  border: 1px solid darkolivegreen;
+  border: 5px solid rgb(255, 255, 255);
   border-radius: 20px;
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(0, 160, 160);
 }
 
 .item:hover{
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(137, 220, 255, 0.12) 0px 2px 4px 0px, rgba(137, 220, 255, 0.32) 0px 2px 16px 0px;
 }
 
 .item:active{
-  box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px inset;
+  box-shadow: rgb(12, 12, 14) 0px 0px 15px 0px inset;
 }
 
 .desc{
